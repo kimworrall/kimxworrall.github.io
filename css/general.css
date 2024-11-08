@@ -1,0 +1,11 @@
+#wipimage {
+    width: 400px;
+    background-image: url("../images/wip.png");
+    height: 105px;
+    background-color: purple;
+    background-position: center;
+  }
+
+.navbar-custom {
+    background-color: rgb(137, 120, 216);
+}

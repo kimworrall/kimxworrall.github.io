@@ -4,47 +4,87 @@
   <title>Kim Worrall</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/navigation.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
 
-
+<!--
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>                      
       </button>
       <a class="navbar-brand" href="#"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <!--
-        <li><a href="#"></a></li>
-        -->
         <li><a href="funfacts/quippets.html">Quippets</a></li>
       </ul>
     </div>
   </div>
 </nav>
+-->
 
-<div class="jumbotron text-center" style="background-color:rgba(255, 255, 255, 0.607)">
+
+<ul class="navigation">
+  <li><a href="">Home</a></li>
+  <li><a href="funfacts/quippets.html">Quippets</a></li>
+</ul>
+
+<div class="flex-wrapper-head">
+  <div class="top" style="text-align: left;">
+  <div style="display: inline-block; text-align: left;">
   <h1>Kim Worrall</h1>
-  <p></p> 
+  kim . worrall at ed . ac . uk<br />
+  <a href="https://www.linkedin.com/in/kim-worrall-954b11172" class="off">LinkedIn</a> &#9652; <a href="https://github.com/kimworrall" class="off">Github</a>
+  </div>
+</div>
 </div>
 
-<div class="container">
-  <p></p>
-  <!--
-  I am a PhD Student at the University of Edinburgh, supervised by Chris Heunen. My main interests are quantum programming langauges and their compilers.
-  -->
+<div class="flex-wrapper">
+
+<div class="flex-wrapper-body">
+<div id="body1" style="text-align: left;">
+    <h2>About</h2>
+    <p>
+    I am a PhD Student in the <a href="https://www.quantumsoftwarelab.com/">Quantum Software Lab</a> at the University of Edinburgh, supervised by <a href="https://homepages.inf.ed.ac.uk/cheunen/group.html">Chris Heunen</a>. 
+    My research focuses on the co-design of quantum programming languages and their compilers. <br />
+      My current interests are:
+    <ul>
+      <li>Formalising common properties of quantum algorithms into primitives</li>
+      <li>Modular, hardware-aware compilers for quantum computing</li>
+      <li>Compiler frameworks like MLIR and xDSL</li>
+      <li>Understanding concurrency in quantum programming</li>
+      <li>Category theoretic approaches to quantum programming languages and foundations</li>
+      <li>Linking all of these together to design usable and efficient quantum programming languages!</li>
+    </ul>
+    </p>
 </div>
+<div id="compilers">
+  <h2>
+  Recent Activity
+  </h2>
+  <p>
+    <ul>
+      <li>EuroLLVM 2025 Talk: How to Write a Scalable Compiler for an Error-Prone Quantum Computer</li>
+      <li>Teaching: Introduction to Quantum Programming Tutor and Lab Organiser</li>
+      <li>Unitary Hack 2025: Supervising bounties for <a href = "https://github.com/xdslproject/inconspiquous"> inconspiquous</a>, an xDSL-based quantum compiler. Come contribute!</li>
+    </ul>
+  </p>
+</div>
+
+</div> 
+  
+
 
 <!-- 
 
@@ -85,5 +125,9 @@
 </div>
 -->
 
+ <div class = "footer">
+  <p>Colour notes: <span class="quantum"> Quantum</span>, <span class="compilers"> Compilers</span>, <span class="neat"> Just Neat</span></p>
+</footer> 
+</div>
 </body>
 </html>
